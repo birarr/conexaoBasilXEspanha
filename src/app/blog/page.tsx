@@ -6,6 +6,8 @@ import { getPosts } from "../_services/notion";
 import { Test } from "../components/test/test";
 import { BlogCard } from "../components/blog-card/blog-card";
 
+export const dynamic = "force-dynamic";
+
 export default async function BlogHome() {
   const posts = await getPosts();
 
