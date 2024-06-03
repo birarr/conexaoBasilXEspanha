@@ -2,7 +2,6 @@ import Link from "next/link";
 import { NotionDatabaseResponse } from "../_types/notion";
 import { Client } from "@notionhq/client";
 import noImage from "../../../public/assets/no_image.jpg";
-import BlogPostCard from "../components/blog-post-card/blog-post-card";
 import { getPosts } from "../_services/notion";
 import { Test } from "../components/test/test";
 import { BlogCard } from "../components/blog-card/blog-card";
